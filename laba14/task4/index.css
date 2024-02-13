@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;    
+    gap: 20px;
+}
+
+table {
+    border-collapse: separate;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+}
+
+.cell_color_aqua {
+    background-color: aqua;
+}
+
+.cell_color_blue {
+    background-color: blue;
+}
+
+.cell_color_orange {
+    background-color: orange;
+}
+
+.cell_color_pink {
+    background-color: pink;
+}
+
+.cell_color_green {
+    background-color: rgb(18, 241, 32);
+}

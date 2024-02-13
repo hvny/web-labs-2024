@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>Формы</title>
+    </head>
+    <body>
+        <form>
+            <h2 align="center">Анкета пользователя</h2>
+            <p><b>Ответьте, пожалуйста, на вопросы:</b></p>
+            <table>
+                <tr>
+                    <td>Ваша фамилия:</td>
+                    <td><input name="lastName" type="text" size="40px"></td>
+                </tr>
+                <tr>
+                    <td>Ваше имя:</td>
+                    <td><input name="name" type="text" size="40px"></td>
+                </tr>
+                <tr>
+                    <td>Ваше отчество:</td>
+                    <td><input name="middleName" type="text" size="40px"></td>
+                </tr>
+            </table>
+            <hr>
+            <b>Ваш пол:</b>
+            <br>
+            <input type="radio" name="genderRadioButton" value="male"><i>Мужчина</i></input>
+            <br>
+            <input type="radio" name="genderRadioButton" value="female"><i>Женщина</i></input>
+            <hr>
+            <b>Семейное положение:</b>
+            <br>
+            <input type="radio" name="familyStatusRadioButton" value="male"><i>Женат/замужем</i></input>
+            <br>
+            <input type="radio" name="familyStatusRadioButton" value="female"><i>Холост/Не замужем</i></input>
+            <br>
+            <p>Количество детей <input type="number" name="children" size="15px" /></p>
+            <hr>
+            <b>Место жительства:</b>
+            <table>
+                <tr>
+                    <td>Страна:</td>
+                    <td>
+                        <select name="country">
+                            <option>Россия</option>
+                            <option>Франция</option>
+                            <option>Новая Зеландия</option>
+                            <option>Австралия</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Другая</td>
+                    <td><input name="otherCountry" type="text" size="25px"></td>
+                </tr>
+                <tr>
+                    <td>Индекс:</td>
+                    <td><input name="index" type="text" size="5px" maxlength="6" value="999999"></td>
+                </tr>
+                <tr>
+                    <td>Город:</td>
+                    <td><input name="city" type="text" size="16px"></td>
+                </tr>
+                <tr>
+                    <td>Улица:</td>
+                    <td><input name="street" type="text" size="30px"></td>
+                </tr>
+            </table>
+            Дом: <input name="houseNumber" type="text" size="1px">
+            Квартира:  <input name="apartmentNumber" type="text" size="1px">
+            </p>
+            <hr>
+            Электронный адрес: <input name="email" type="email" size="30px">
+            <hr>
+            <textarea name="comment" cols="64" rows="6">Спасибо за уделённое время, подалуйста, оставьте отзыв о заполненной анкете.</textarea>
+            <hr>
+            <button type="submit">Подача запроса</button>
+            <button type="reset">Сброс</button>
+    </body>
+</html>

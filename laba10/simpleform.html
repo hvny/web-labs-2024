@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>Формы</title>
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <th colspan="2">Пожалуйста, введите ваши данные:</th>
+                </tr>
+                <tr>
+                    <td>Имя:</td>
+                    <td><input name="name" type="text" size="35px"></td>
+                </tr>
+                <tr>
+                    <td>Фамилия:</td>
+                    <td><input name="lastName" type="text" size="35px"></td>
+                </tr>
+                <tr>
+                    <td>Улица:</td>
+                    <td><input name="street" type="text" size="35px"></td>
+                </tr>
+                <tr>
+                    <td>Город:</td>
+                    <td><input name="city" type="text" size="35px"></td>
+                </tr>
+                <tr>
+                    <td>Индекс:</td>
+                    <td><input name="index" type="text" size="5px" maxlength="6" value="999999"></td>
+                </tr>
+            </table>
+            <ol>
+                <li>
+                    Какой поисковой системой вы чаще всего пользуетесь?
+                    <ul type="none">
+                        <li><input type="radio" name="radioButton" value="nigma">nigma</input></li>
+                        <li><input type="radio" name="radioButton" value="rambler">rambler</input></li>
+                        <li><input type="radio" name="radioButton" value="google">google</input></li>
+                        <li><input type="radio" name="radioButton" value="yandex">yandex</input></li>
+                    </ul>
+                </li>
+                <li>
+                    На каком почтовом сервисе вы зарегистрированы?
+                    <ul type="none">
+                        <li><input type="checkbox" name="checkboxMail" value="mail">mail</input></li>
+                        <li><input type="checkbox" name="checkboxRambler" value="rambler">rambler</input></li>
+                        <li><input type="checkbox" name="checkboxInbox" value="inbox">inbox</input></li>
+                        <li><input type="checkbox" name="checkboxYandex" value="yandex">yandex</input></li>
+                    </ul>
+                </li>
+                <b>
+                <li>
+                    У вас есть постоянный доступ в Интернет?<br>
+                    <select name="selectElement">
+                        <option>–ДА</option>
+                        <option>–НЕТ</option>
+                    </select>
+                </li>
+                </b>
+            </ol>
+            <button type = "submit">Отправить данные</button>
+        </form>
+        <br>
+        <p>Задание 3:</p>
+        <form>
+            <input type = "text" name="nameInput" placeholder="Введите имя" size = "35px"><br>
+            <input type = "password" name="passwordInput" placeholder="Введите пароль" size = "35px"><br>
+            <button type="submit">Регистрация</button>
+            <button type="reset">Очистить</button>
+        </form>
+    </body>
+</html>
