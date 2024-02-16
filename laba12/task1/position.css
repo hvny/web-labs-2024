@@ -1,0 +1,27 @@
+.page {
+    position: relative;
+}
+
+.page__text {
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 5px;
+    position: absolute;
+}
+
+.page__title {
+    color: #595858;
+    z-index: 10;
+    top: 100px;
+    left: 600px;
+}
+
+.page__shadow {
+    color: #adacac;
+    top: 103px;
+    left: 608px;
+    z-index: -10;
+}

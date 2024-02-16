@@ -1,0 +1,107 @@
+.page {
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.page__blocks {
+    width: min-content;
+    position: relative;
+    top: 20px;
+    left: 340px;   
+}
+
+.page__block {
+    background-color: #305329;
+    border: 1px solid #000000;
+    width: 230px;
+    text-align: center;
+    color: #f2ff02;
+    font-size: 27px;
+    line-height: 0;
+}
+
+.page__block_gray {
+    background-color: #a8a4a4;
+}
+
+.page__block_top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.page__block_middle {
+    position: absolute;
+    top: 40px;
+    left: 210px;
+    z-index: -1;
+}
+.page__block_low {
+    position: absolute;
+    top: 80px;
+    left: 430px;
+    z-index: 0;
+}
+
+.page__title {
+    font-size: 265px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 5px;
+    color: #c5c3c3;
+    z-index: -10;
+    position: absolute;
+    top: 80px;
+    left: 430px;
+}
+
+.page__subtitle {
+    font-size: 35px;
+    color: #305329;
+    font-weight: 500;
+    position: absolute;
+    top: 520px;
+    left: 760px;
+    z-index: 3;
+}
+
+.page__paragraphs-container {
+    position: absolute;
+    top: 148px;
+    left: 400px;
+}
+
+.page__paragraph {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    width: 550px;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page__paragraph_bold {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.page__paragraph_red {
+    color: red;
+    font-weight: 700;
+}
+
+.page__line {
+    background-color: red;
+    width: 235px;
+    height: 3px;
+    position: absolute;
+    left: 750px;
+}
+
+.page__line_top {
+    top: 565px;
+}
+
+.page__line_low {
+    top: 575px;
+}
