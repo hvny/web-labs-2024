@@ -37,15 +37,27 @@ body {
 
 .form__button {
     width: 70%;
-    cursor: pointer;
     height: 30px;
+    background-color: bisque;
+}
+
+.button {
+    cursor: pointer;
     border-radius: 5px;
     outline: none;
     border: none;
     transition: opacity .4s;
-    background-color: bisque;
 }
 
-.form__button:hover {
+.button:hover {
     opacity: .7;
+}
+
+.products-list__product {
+    display: flex;
+    text-align: center;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-size: 20px;
 }

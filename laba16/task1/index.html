@@ -10,12 +10,16 @@
         </ul>
         <form class="form">
             <input name="nameInput" type="text" placeholder="Введите название продукта" class="form__input">
-            <input name="priceinput" type="number" placeholder="Введите стоимость продукта" class="form__input">
-            <button type="submit" name="submit-button" class="form__button">Добавить</button>
+            <input name="priceInput" type="number" placeholder="Введите стоимость продукта" class="form__input">
+            <button type="submit" name="submit-button" class="form__button button">Добавить</button>
         </form>
 
         <template id = "product">
-            <li class="products-list__product"></li>
+            <li class="products-list__product">
+                <p class="products-list__product-name"></p>
+                <p class="products-list__product-price"></p>
+                <button type="button" class="products-list__button button">Удалить</button>
+            </li>
         </template>
 
         <script src="./index.js"></script>
