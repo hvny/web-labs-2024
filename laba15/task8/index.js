@@ -24,3 +24,19 @@ const initialArr = [
 ];
 
 const resultArr = [];
+let isColorInArr = false;
+
+initialArr.forEach((elem) => {
+    for (const color of Object.values(elem["home"])) {       
+        if (color == userColor) {   
+            initialArr.splice(initialArr.indexOf(elem), 1);
+            isColorInArr = true;
+        }
+    }
+});
+if (isColorInArr == false) {
+    alert("Такого объекта нет в массиве");
+}
+else {
+    console.log(initialArr);
+}
