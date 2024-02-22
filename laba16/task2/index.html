@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>Задание 2</title>
+        <link rel="stylesheet" href="./index.css" />
+    </head>
+    <body>
+        <div class="lists"></div>
+        <form class="form">
+            <input name="nameInput" type="text" placeholder="Введите название списка дел" class="form__input input">
+            <button type="submit" name="submit-button" class="form__button button">Добавить</button>
+        </form>
+
+        <template id = "list"> 
+            <article class="list-container">
+                <h2 class="list-container__title"></h2>
+                <button type = "button" class="list-container__button list-container__button_remove button">&#10060;</button>
+                <form class = "list-container__form">
+                    <input type="text" placeholder="Добавьте дело" class="list-container__input list-container__input_add input">
+                    <button type="button" class="list-container__button list-container__button_add button">Добавить</button>
+                </form>
+                <ul class = "list-container__list"></ul>
+            </article>
+        </template>
+        <template id = "list-item">
+            <li class="list-container__elem">
+                <label class="list-container__label">
+                    <input type="checkbox" class="list-container__checkbox" value="">
+                    <span class = "list-container__span"></span>
+                </label>
+                <button type="button" class="list-container__item-button list-container__button_remove button">&#10060;</button>
+            </li>
+        </template>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
+
