@@ -1,4 +1,3 @@
-"use strict";
 
 const listsContainer = document.querySelector(".lists");
 const form = document.querySelector(".form");

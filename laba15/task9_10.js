@@ -44,6 +44,6 @@ console.log("Результат задания 9: ", initialArr);
 console.log("\nРезультат задания 10: ");
 avgValuesArr.forEach((elem ,index) => {
     if (Number.isNaN(elem)) {
-        console.log(`Элемент со значением NaN назодится на позиции ${index}`);
+        console.log(`Элемент со значением NaN находится на позиции ${index}`);
     }
 });

@@ -100,8 +100,6 @@ body {
     font-size: 17px;
 }
 
-
-
 .list-container__list-item {
     width: 100%;
     padding: 10px 0;
@@ -160,8 +158,6 @@ body {
     height: 30px;
     background-color: bisque;
 }
-
-
 
 .button:hover, .form__input:hover {
     opacity: .7;
