@@ -1,0 +1,21 @@
+.title{
+    text-align: center;
+    font-family: Courier New;
+    font-weight: 700;
+    font-size: 18px;
+    color: red;
+}
+.subtitle{
+    color: green;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.text{
+    font-family: Verdana;
+    font-size: 11px;
+}
+.marked{
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+}

@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    background-color:rgba(197, 188, 169);
+    color: rgba(0, 0, 0, .6);
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.films{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+}
+.films__item{
+    margin-left: 25px;
+}
+.films__item-link{
+    text-decoration: none;
+    font-size: 18px;
+    color: inherit;
+}
+.main{
+    margin: 80px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-bottom: 3px solid gray;
+}
+.heading{
+    font-size: 32px;
+    margin: 0 0 22px;
+}
+.film__container{
+    display: flex;
+}
+.film__poster{
+    max-width: 320px;
+    max-height: 320px;
+    object-fit: contain;
+}
+.film__text-container{
+    margin-left: 22px;
+    width: 50%;
+}
+.film__name{
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.film__description{
+    font-size: 17px;
+}
+.film__actors{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+}
+.actor{
+    
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.actor__photo{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 100%;
+
+}
+.actor__name{
+    max-width: 70%;
+    font-size: 18px;
+}
+.rating{
+    object-fit: contain;
+    width: 300px;
+    margin-bottom: 30px;
+}
+.review__container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.review{
+    max-width: 500px;
+}

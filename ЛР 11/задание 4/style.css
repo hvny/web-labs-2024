@@ -1,0 +1,30 @@
+.title{
+    font-weight: 900;
+    font-size: 18px;
+    margin: 3px;
+}
+.text_line{
+    border-top: 1px solid black;
+    font-style: italic;
+    max-width: max-content;
+    font-size: 14px;
+    margin: 3px;
+}
+.text_bold-back{
+    background-color: gray;
+    font-weight: 600;
+    max-width: max-content;
+    font-size: 21px;
+    margin: 3px;
+}
+.text_light{
+    letter-spacing: 8px;
+    margin: 3px;
+}
+.text_medium{
+    font-weight: 700;
+    margin: 3px;
+}
+.text_default{
+    margin: 3px;
+}
