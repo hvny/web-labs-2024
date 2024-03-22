@@ -1,7 +1,8 @@
 body{
     margin: 0;
-    background-color:rgba(197, 188, 169);
-    color: rgba(0, 0, 0, .6);
+    background-color: #9ad1d5;
+    color: #000000;
+
 }
 .header{
     display: flex;
@@ -46,11 +47,17 @@ body{
 .film__name{
     margin: 0;
     letter-spacing: 2px;
-    font-size: 30px;
+    font-size: 33px;
 }
 .film__description{
-    font-size: 17px;
+    font-size: 25px;
 }
+
+.film__information {
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
 .film__actors{
     display: flex;
     flex-direction: row;
@@ -58,7 +65,6 @@ body{
     gap: 10%;
 }
 .actor{
-    
     list-style-type: none;
     display: flex;
     flex-direction: column;
